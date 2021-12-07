@@ -1,0 +1,6 @@
+ <launch>
+    <!-- Turtlesim Node-->
+    <node pkg="image" type="image_process.py" name="image_process" output="screen"/>
+    <node pkg="image" type="ping_subs.py" name="ping_subs" output="screen"/>
+    <!-- Axes -->
+  </launch>
